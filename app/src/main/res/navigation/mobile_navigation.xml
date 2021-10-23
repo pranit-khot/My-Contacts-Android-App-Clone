@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_favourites">
+
+    <fragment
+        android:id="@+id/navigation_favourites"
+        android:name="com.example.mycontacts.view.fragments.FavoritesFragment"
+        android:label="@string/title_favorites"
+        tools:layout="@layout/fragment_favorites" >
+        <action
+            android:id="@+id/action_navigation_favourites_to_navigation_contact_details"
+            app:destination="@id/navigation_contact_details" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_recents"
+        android:name="com.example.mycontacts.view.fragments.RecentsFragment"
+        android:label="@string/title_recent"
+        tools:layout="@layout/fragment_recents" >
+        <action
+            android:id="@+id/action_navigation_recents_to_navigation_contact_details"
+            app:destination="@id/navigation_contact_details" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_contacts"
+        android:name="com.example.mycontacts.view.fragments.ContactsFragment"
+        android:label="@string/title_contacts"
+        tools:layout="@layout/fragment_contacts" >
+        <action
+            android:id="@+id/action_navigation_contacts_to_navigation_contact_details"
+            app:destination="@id/navigation_contact_details" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_contact_details"
+        android:name="com.example.mycontacts.view.fragments.ContactDetailsFragment"
+        android:label="Contact Details"
+        tools:layout="@layout/fragment_contact_details">
+        <argument
+            android:name="contactDetails"
+            app:argType="com.example.mycontacts.model.entities.MyContact"
+            />
+    </fragment>
+</navigation>

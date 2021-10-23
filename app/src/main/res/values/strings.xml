@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">My Contacts</string>
+    <string name="title_favorites">Favorites</string>
+    <string name="title_recent">Recents</string>
+    <string name="title_contacts">Contacts</string>
+    <string name="lbl_first_name">First Name</string>
+    <string name="lbl_last_name">Last Name</string>
+    <string name="lbl_middle_name">Middle Name</string>
+    <string name="lbl_work_number">Work Number</string>
+    <string name="lbl_home_number">Home Number</string>
+    <string name="lbl_other_number">Other Number</string>
+    <string name="lbl_email">Email</string>
+    <string name="lbl_company">Company</string>
+    <string name="lbl_add_contact">Save</string>
+
+    <string name="title_select_image">Select Image Action</string>
+    <string name="lbl_camera">Camera</string>
+    <string name="lbl_gallery">Gallery</string>
+
+    <string name="err_msg_enter_contact_image">Select contact image.</string>
+    <string name="err_msg_enter_first_name">Enter First Name.</string>
+    <string name="err_msg_enter_last_name">Enter Last Name.</string>
+    <string name="err_msg_enter_middle_name">Enter Middle Name.</string>
+    <string name="err_msg_enter_work_number">Enter Work Number.</string>
+    <string name="err_msg_enter_home_number">Enter Home Number .</string>
+    <string name="err_msg_enter_other_number">Enter Other Number.</string>
+    <string name="err_msg_enter_company">Enter Company.</string>
+    <string name="err_msg_enter_email">Enter email.</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_edit_contact">Edit</string>
+    <string name="action_delete_contact">Delete</string>
+
+    <string name="title_edit_dish">Edit Contact</string>
+    <string name="title_add_dish">Add Contact</string>
+    <string name="lbl_update_contact">Update Contact</string>
+
+    <string name="title_delete_contact">Delete Contact</string>
+    <string name="msg_delete_contact_dialog">Are you sure you want to delete %1$s.</string>
+    <string name="lbl_yes">Yes</string>
+    <string name="lbl_no">No</string>
+</resources>
