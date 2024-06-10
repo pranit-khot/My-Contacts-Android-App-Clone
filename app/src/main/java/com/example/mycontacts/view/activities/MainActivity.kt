@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        //added comment line
+        //added comment line for test
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
