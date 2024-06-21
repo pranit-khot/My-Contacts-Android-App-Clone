@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
         //added comment line for test
 
 
+
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
